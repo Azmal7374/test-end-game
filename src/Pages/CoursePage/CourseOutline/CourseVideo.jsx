@@ -101,7 +101,7 @@ const CourseVideo = ({ videoList, currentModuleIndex, onModuleChange, onNextModu
       </div>
       <div className="mt-3 w-full md:flex md:justify-between items-center gap-4 lg:gap-8 xl:gap-16">
         <div className="w-full md:w-3/5">
-          <h3 className="text-lg md:text-xl font-semibold mt-3">{currentVideo.module}</h3>
+          <h3 className="text-[16px] md:text-xl font-semibold mt-3">{currentVideo.module}</h3>
         </div>
         <div className="mt-3 w-full md:w-2/5 flex flex-col md:flex-row gap-2">
           <button className="btn btn-outline btn-secondary py-2 md:py-3 px-4 md:w-1/2" onClick={handlePrevious}>

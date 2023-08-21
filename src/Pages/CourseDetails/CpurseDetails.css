@@ -1,0 +1,15 @@
+.hover-scroll {
+    overflow: hidden;
+  }
+  
+  .hover-scroll ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-scroll:hover ul {
+    transform: translateX(-100%);
+  }
